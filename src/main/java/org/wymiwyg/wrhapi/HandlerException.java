@@ -23,7 +23,7 @@ package org.wymiwyg.wrhapi;
  * 
  * @author reto
  */
-public class HandlerException extends Exception {
+public class HandlerException extends RuntimeException {
 	
 	
 	private static final long serialVersionUID = 3257846580244789048L;
